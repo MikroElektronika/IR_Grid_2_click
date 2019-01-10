@@ -1,0 +1,8 @@
+module Click_IR_Grid2_config
+
+include Click_IR_Grid2_types
+
+const
+    _IRGRID2_I2C_CFG as uint32_t[1] = (_I2C_BITRATE_STANDARD_MODE)
+    
+end.

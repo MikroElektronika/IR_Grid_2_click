@@ -1,0 +1,43 @@
+module Click_IR_Grid2_types
+
+typedef uint8_t                 as byte
+typedef int8_t                  as short
+typedef uint16_t                as word
+typedef int16_t                 as integer
+typedef uint32_t                as longword
+typedef int32_t                 as longint
+
+structure paramsMLX90640
+
+	dim kVdd              as int16_t 
+    dim vdd25             as int16_t 
+    dim KvPTAT            as float 
+    dim KtPTAT            as float 
+    dim vPTAT25           as uint16_t 
+    dim alphaPTAT         as float 
+    dim gainEE            as int16_t 
+    dim tgc               as float 
+    dim cpKv              as float 
+    dim cpKta             as float 
+    dim resolutionEE      as uint8_t 
+    dim calibrationModeEE as uint8_t 
+    dim KsTa              as float 
+    dim ksTo              as float[4] 
+    dim ct                as int16_t[4] 
+    dim alpha             as float[768] 
+    dim offset            as int16_t[768] 
+    dim kta               as float[768] 
+    dim kv                as float[768] 
+    dim cpAlpha           as float[2] 
+    dim cpOffset          as int16_t[2] 
+    dim ilChessC          as float[3] 
+    dim brokenPixels      as uint16_t[5] 
+    dim outlierPixels     as uint16_t[5]
+
+end structure
+
+
+
+typedef T_IRGRID2_P       as ^const uint8_t
+
+end.

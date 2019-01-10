@@ -1,0 +1,42 @@
+0	1	mikroCdsPIC.exe -MSF -DBG -pP33FJ256GP710A -DL -SSA -O11111114 -fo8 -N"D:\Clicks_git\I\IR-Grid_2_Click\SW\example\c\DSPIC\Click_IR_Grid2_DSPIC.mcpds" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for dsPIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for dsPIC\Uses\" -SP"D:\Clicks_git\I\IR-Grid_2_Click\SW\example\c\DSPIC\" -SP"D:\Clicks_git\I\IR-Grid_2_Click\SW\library\HAL\" -SP"D:\Clicks_git\I\IR-Grid_2_Click\SW\library\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for dsPIC\Packages\mikroBUS Board Definition API\Uses\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for dsPIC\Uses\" -IP"D:\Clicks_git\I\IR-Grid_2_Click\SW\example\c\DSPIC\" -IP"D:\Clicks_git\I\IR-Grid_2_Click\SW\library\" -IP"D:\Clicks_git\I\IR-Grid_2_Click\SW\library\HAL\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for dsPIC\Packages\mikroBUS Board Definition API\Uses\" "Click_IR_Grid2_DSPIC.c" "__irgrid2_Driver.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_CString.mcl" "__Lib_Conversions.mcl" "__Lib_I2C_12_p24_p33.mcl" "__Lib_UART_12_p24_p33.mcl" "easypicfusion_v7_P33FJ256GP710A.mcl" "Click_IR_Grid2.pld"	 
+diagnostics: 0	121	Loading...	 
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 90	123	Compiled Successfully	Click_IR_Grid2_DSPIC.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 1414	123	Compiled Successfully	__irgrid2_Driver.c
+warning: 231	1512	variable 'exp' might not have been initialized	__irgrid2_Driver.c
+warning: 1054	1512	variable 'controlRegister1' might not have been initialized	__irgrid2_Driver.c
+warning: 1056	1512	variable 'statusRegister' might not have been initialized	__irgrid2_Driver.c
+warning: 1087	1512	variable 'controlRegister1' might not have been initialized	__irgrid2_Driver.c
+warning: 1066	1512	variable 'controlRegister1' might not have been initialized	__irgrid2_Driver.c
+warning: 1076	1512	variable 'controlRegister1' might not have been initialized	__irgrid2_Driver.c
+warning: 1097	1512	variable 'controlRegister1' might not have been initialized	__irgrid2_Driver.c
+warning: 1107	1512	variable 'controlRegister1' might not have been initialized	__irgrid2_Driver.c
+warning: 1117	1512	variable 'controlRegister1' might not have been initialized	__irgrid2_Driver.c
+warning: 1127	1512	variable 'controlRegister1' might not have been initialized	__irgrid2_Driver.c
+hint: 323	1164	Variable 'tmp' has been eliminated by optimizer	__irgrid2_Driver.c
+hint: 95	1164	Variable 'tmp' has been eliminated by optimizer	__irgrid2_Driver.c
+hint: 268	1164	Variable 'deviceSelect' has been eliminated by optimizer	__irgrid2_Driver.c
+hint: 354	1164	Variable 'resolutionEE' has been eliminated by optimizer	__irgrid2_Driver.c
+hint: 625	1164	Variable 'split' has been eliminated by optimizer	__irgrid2_Driver.c
+hint: 680	1164	Variable 'ktaScale1' has been eliminated by optimizer	__irgrid2_Driver.c
+hint: 681	1164	Variable 'kvScale' has been eliminated by optimizer	__irgrid2_Driver.c
+hint: 948	1164	Variable 'dataCnt' has been eliminated by optimizer	__irgrid2_Driver.c
+hint: 1004	1164	Variable '_Ta' has been eliminated by optimizer	__irgrid2_Driver.c
+hint: 1074	1164	Variable 'resolutionRAM' has been eliminated by optimizer	__irgrid2_Driver.c
+hint: 1095	1164	Variable 'refreshRate' has been eliminated by optimizer	__irgrid2_Driver.c
+hint: 1105	1164	Variable 'value' has been eliminated by optimizer	__irgrid2_Driver.c
+hint: 1115	1164	Variable 'value' has been eliminated by optimizer	__irgrid2_Driver.c
+hint: 1125	1164	Variable 'modeRAM' has been eliminated by optimizer	__irgrid2_Driver.c
+hint: 1139	1164	Variable 'ta' has been eliminated by optimizer	__irgrid2_Driver.c
+hint: 1303	1164	Variable 'alphaCompensated' has been eliminated by optimizer	__irgrid2_Driver.c
+hint: 1309	1164	Variable 'image' has been eliminated by optimizer	__irgrid2_Driver.c
+hint: 1400	1164	Variable 'resolutionCorrection' has been eliminated by optimizer	__irgrid2_Driver.c
+diagnostics: 0	127	All files Compiled in 375 ms	 
+hint: 0	1144	Used RX (bytes): 32 (100%)   Free RX (bytes): 0 (0%)	Used RX (bytes): 32 (100%)   Free RX (bytes): 0 (0%)
+hint: 0	1144	Static RAM (bytes): 17529   Dynamic RAM (bytes): 13190	Static RAM (bytes): 17529   Dynamic RAM (bytes): 13190
+hint: 0	1144	Used ROM (bytes): 15204 (9%)  Free ROM (bytes): 159900 (91%)	Used ROM (bytes): 15204 (9%)  Free ROM (bytes): 159900 (91%)
+diagnostics: 0	125	Project Linked Successfully	Click_IR_Grid2_DSPIC.mcpds
+diagnostics: 0	128	Linked in 297 ms	 
+diagnostics: 0	129	Project 'Click_IR_Grid2_DSPIC.mcpds' completed: 875 ms	 
+diagnostics: 0	103	Finished successfully: 28 avg 2018, 14:52:08	Click_IR_Grid2_DSPIC.mcpds

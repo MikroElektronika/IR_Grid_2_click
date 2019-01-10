@@ -1,0 +1,33 @@
+0	1	mikroCARM.exe -MSF -DBG -pTM4C129XNCZAD -BIN -C -DL -SSA -O11111114 -fo120 -N"D:\Clicks_git\I\IR-Grid_2_Click\SW\example\c\ARM\TIVA\Click_IR_Grid2_TIVA.mcpar" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\TI M4\" -SP"D:\Clicks_git\I\IR-Grid_2_Click\SW\example\c\ARM\TIVA\" -SP"D:\Clicks_git\I\IR-Grid_2_Click\SW\library\HAL\" -SP"D:\Clicks_git\I\IR-Grid_2_Click\SW\library\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\mikroBUS Board Definition API\Uses\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\TI M3\" -IP"D:\Clicks_git\I\IR-Grid_2_Click\SW\example\c\ARM\TIVA\" -IP"D:\Clicks_git\I\IR-Grid_2_Click\SW\library\" -IP"D:\Clicks_git\I\IR-Grid_2_Click\SW\library\HAL\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\mikroBUS Board Definition API\Uses\" "Click_IR_Grid2_TIVA.c" "__irgrid2_driver.c" "__Lib_Math.emcl" "__Lib_Delays.emcl" "__Lib_MathDouble.emcl" "__Lib_System_TIVA.emcl" "__Lib_GPIO_6_Defs.emcl" "__Lib_GPIO_6.emcl" "__Lib_CString.emcl" "__Lib_Conversions.emcl" "__Lib_I2C_09.emcl" "__Lib_UART_07.emcl" "easymx_v7_TM4C129XNCZAD.emcl" "Click_IR_Grid2.pld"	 
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 87	123	Compiled Successfully	Click_IR_Grid2_TIVA.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 1389	123	Compiled Successfully	__irgrid2_driver.c
+hint: 323	1164	Variable 'tmp' has been eliminated by optimizer	__irgrid2_driver.c
+hint: 92	1164	Variable 'tmp' has been eliminated by optimizer	__irgrid2_driver.c
+hint: 245	1164	Variable 'deviceSelect' has been eliminated by optimizer	__irgrid2_driver.c
+hint: 332	1164	Variable 'resolutionEE' has been eliminated by optimizer	__irgrid2_driver.c
+hint: 603	1164	Variable 'split' has been eliminated by optimizer	__irgrid2_driver.c
+hint: 658	1164	Variable 'ktaScale1' has been eliminated by optimizer	__irgrid2_driver.c
+hint: 659	1164	Variable 'kvScale' has been eliminated by optimizer	__irgrid2_driver.c
+hint: 926	1164	Variable 'dataCnt' has been eliminated by optimizer	__irgrid2_driver.c
+hint: 983	1164	Variable '_Ta' has been eliminated by optimizer	__irgrid2_driver.c
+hint: 1049	1164	Variable 'resolutionRAM' has been eliminated by optimizer	__irgrid2_driver.c
+hint: 1070	1164	Variable 'refreshRate' has been eliminated by optimizer	__irgrid2_driver.c
+hint: 1080	1164	Variable 'value' has been eliminated by optimizer	__irgrid2_driver.c
+hint: 1090	1164	Variable 'value' has been eliminated by optimizer	__irgrid2_driver.c
+hint: 1100	1164	Variable 'modeRAM' has been eliminated by optimizer	__irgrid2_driver.c
+hint: 1114	1164	Variable 'ta' has been eliminated by optimizer	__irgrid2_driver.c
+hint: 1142	1164	Variable 'tr4' has been eliminated by optimizer	__irgrid2_driver.c
+hint: 1153	1164	Variable 'Sx' has been eliminated by optimizer	__irgrid2_driver.c
+hint: 1278	1164	Variable 'alphaCompensated' has been eliminated by optimizer	__irgrid2_driver.c
+hint: 1284	1164	Variable 'image' has been eliminated by optimizer	__irgrid2_driver.c
+hint: 1375	1164	Variable 'resolutionCorrection' has been eliminated by optimizer	__irgrid2_driver.c
+diagnostics: 0	127	All files Compiled in 250 ms	 
+hint: 0	1144	Used RX: 16 (100%)   Free RX: 0 (0%)	Used RX: 16 (100%)   Free RX: 0 (0%)
+hint: 0	1144	Static RAM (bytes): 17640   Dynamic RAM (bytes): 244501	Static RAM (bytes): 17640   Dynamic RAM (bytes): 244501
+hint: 0	1144	Used ROM (bytes): 21925 (2%)  Free ROM (bytes): 1026651 (98%)	Used ROM (bytes): 21925 (2%)  Free ROM (bytes): 1026651 (98%)
+diagnostics: 0	125	Project Linked Successfully	Click_IR_Grid2_TIVA.mcpar
+diagnostics: 0	128	Linked in 719 ms	 
+diagnostics: 0	129	Project 'Click_IR_Grid2_TIVA.mcpar' completed: 1250 ms	 
+diagnostics: 0	103	Finished successfully: 27 avg 2018, 18:06:33	Click_IR_Grid2_TIVA.mcpar

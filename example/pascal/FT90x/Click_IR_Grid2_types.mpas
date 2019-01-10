@@ -1,0 +1,41 @@
+unit Click_IR_Grid2_types;
+
+type uint8_t  = byte;
+type int8_t   = short;
+type uint16_t = word;
+type int16_t  = integer;
+type uint32_t = dword;
+type int32_t  = longint;
+
+
+type paramsMLX90640 = record
+ 
+    kVdd              : int16_t;
+    vdd25             : int16_t;
+    KvPTAT            : real;
+    KtPTAT            : real;
+    vPTAT25           : uint16_t;
+    alphaPTAT         : real;
+    gainEE            : int16_t;
+    tgc               : real;
+    cpKv              : real;
+    cpKta             : real;
+    resolutionEE      : uint8_t;
+    calibrationModeEE : uint8_t;
+    KsTa              : real;
+    ksTo              : array[4] of real;
+    ct                : array[4] of int16_t;
+    alpha             : array[768] of real;
+    offset            : array[768] of int16_t;
+    kta               : array[768] of real;
+    kv                : array[768] of real;
+    cpAlpha           : array[2] of real;
+    cpOffset          : array[2] of int16_t;
+    ilChessC          : array[3] of real;
+    brokenPixels      : array[5] of uint16_t;
+    outlierPixels     : array[5] of uint16_t;
+end;
+
+type T_IRGRID2_P = ^const uint8_t;
+
+end.

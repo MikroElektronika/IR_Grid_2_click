@@ -1,0 +1,39 @@
+0	1	mikrocAVR.exe -MSF -DBG -pATMEGA32 -DL -SSA -O11111114 -fo8 -BOOTSZ2048 -BOOTOP0 -N"D:\Clicks_git\I\IR-Grid_2_Click\SW\example\c\AVR\Click_IR_Grid2_AVR.mcpav" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for AVR\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for AVR\Uses\lte64kw\" -SP"D:\Clicks_git\I\IR-Grid_2_Click\SW\example\c\AVR\" -SP"D:\Clicks_git\I\IR-Grid_2_Click\SW\library\HAL\" -SP"D:\Clicks_git\I\IR-Grid_2_Click\SW\library\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for AVR\Packages\mikroBUS Board Definition API\Uses\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for AVR\Uses\lte64kw\" -IP"D:\Clicks_git\I\IR-Grid_2_Click\SW\example\c\AVR\" -IP"D:\Clicks_git\I\IR-Grid_2_Click\SW\library\" -IP"D:\Clicks_git\I\IR-Grid_2_Click\SW\library\HAL\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for AVR\Packages\mikroBUS Board Definition API\Uses\" "Click_IR_Grid2_AVR.c" "__irgrid2_Driver.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_CString.mcl" "__Lib_Conversions.mcl" "__Lib_TWI.mcl" "__Lib_UART_d01_ursel.mcl" "easyavr_v7_ATMEGA32.mcl" "Click_IR_Grid2.pld"	 
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 91	123	Compiled Successfully	Click_IR_Grid2_AVR.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 1414	123	Compiled Successfully	__irgrid2_Driver.c
+warning: 231	1512	variable 'exp' might not have been initialized	__irgrid2_Driver.c
+warning: 1054	1512	variable 'controlRegister1' might not have been initialized	__irgrid2_Driver.c
+warning: 1056	1512	variable 'statusRegister' might not have been initialized	__irgrid2_Driver.c
+warning: 1087	1512	variable 'controlRegister1' might not have been initialized	__irgrid2_Driver.c
+warning: 1066	1512	variable 'controlRegister1' might not have been initialized	__irgrid2_Driver.c
+warning: 1076	1512	variable 'controlRegister1' might not have been initialized	__irgrid2_Driver.c
+warning: 1097	1512	variable 'controlRegister1' might not have been initialized	__irgrid2_Driver.c
+warning: 1107	1512	variable 'controlRegister1' might not have been initialized	__irgrid2_Driver.c
+warning: 1117	1512	variable 'controlRegister1' might not have been initialized	__irgrid2_Driver.c
+warning: 1127	1512	variable 'controlRegister1' might not have been initialized	__irgrid2_Driver.c
+hint: 323	1164	Variable 'tmp' has been eliminated by optimizer	__irgrid2_Driver.c
+hint: 94	1164	Variable 'tmp' has been eliminated by optimizer	__irgrid2_Driver.c
+hint: 268	1164	Variable 'deviceSelect' has been eliminated by optimizer	__irgrid2_Driver.c
+hint: 354	1164	Variable 'resolutionEE' has been eliminated by optimizer	__irgrid2_Driver.c
+hint: 625	1164	Variable 'split' has been eliminated by optimizer	__irgrid2_Driver.c
+hint: 680	1164	Variable 'ktaScale1' has been eliminated by optimizer	__irgrid2_Driver.c
+hint: 681	1164	Variable 'kvScale' has been eliminated by optimizer	__irgrid2_Driver.c
+hint: 948	1164	Variable 'dataCnt' has been eliminated by optimizer	__irgrid2_Driver.c
+hint: 1004	1164	Variable '_Ta' has been eliminated by optimizer	__irgrid2_Driver.c
+hint: 1074	1164	Variable 'resolutionRAM' has been eliminated by optimizer	__irgrid2_Driver.c
+hint: 1095	1164	Variable 'refreshRate' has been eliminated by optimizer	__irgrid2_Driver.c
+hint: 1105	1164	Variable 'value' has been eliminated by optimizer	__irgrid2_Driver.c
+hint: 1115	1164	Variable 'value' has been eliminated by optimizer	__irgrid2_Driver.c
+hint: 1125	1164	Variable 'modeRAM' has been eliminated by optimizer	__irgrid2_Driver.c
+hint: 1139	1164	Variable 'ta' has been eliminated by optimizer	__irgrid2_Driver.c
+hint: 1303	1164	Variable 'alphaCompensated' has been eliminated by optimizer	__irgrid2_Driver.c
+hint: 1309	1164	Variable 'image' has been eliminated by optimizer	__irgrid2_Driver.c
+hint: 1400	1164	Variable 'resolutionCorrection' has been eliminated by optimizer	__irgrid2_Driver.c
+diagnostics: 0	127	All files Compiled in 328 ms	 
+error: 37	362	Not enough RAM 'mlx90640'	__irgrid2_Driver.c
+error: 1022	362	Not enough RAM 'eeMLX90640'	__irgrid2_Driver.c
+error: 33	362	Not enough RAM 'pixelTemp'	Click_IR_Grid2_AVR.c
+error: 1007	362	Not enough RAM 'mlx90640Frame'	__irgrid2_Driver.c
+error: 0	102	Finished (with errors): 28 avg 2018, 11:27:51	Click_IR_Grid2_AVR.mcpav
